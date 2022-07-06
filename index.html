@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/8895088e7a.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="public/css/styles.css">
+   <script src="https://kit.fontawesome.com/8895088e7a.js" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--NAvbar-->
+    <nav class="top-fixed shadow-lg container-fluid navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="sectionFavouritePlaces" id="myclass"  >My projects</a>
+          <a class="nav-link" href="#">Bootstrap-Projects</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contact me</a>
+        </div>
+      </div>
+    </nav>
+  <div class="Home-container d-flex flex-column  justify-content-center Home-container1 container-fluid">
+
+    <div class=" d-flex flex-column container  justify-content-center text-center container">
+
+      <h1 class="animate-charcter main-heading">Hello world</h1>
+
+    </div>
+    <!img class="image1 w-50 m-auto" src="images/pngegg.png" alt="">
+  </div>
+  <div class="main-heading-1 m-5 text-center">
+    <h1 class="heading3e">My static pages</h1>
+
+  </div>
+   <!--NAvbar ends-->
+   <div id="sectionFavouritePlaces" class="container-fluid p-5">
+     <div class="row">
+       <div class="col-12 shadow-lg col-md-4 mb-3">
+         <div class="card">
+           <div id="Homepage-section" class="Homepage d-flex flex-column justify-content-center">
+              <div class="text-center">
+                  <img class="w-25  DeveloperImage" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" alt="" />
+                  <h1 class="Homepage-My-Projects">My project</h1>
+                  <p class="Homepage-My-Projects-para">These are a few of my static websites projects that I hav developed using HTML,CSS and Bootstrap</p>
+
+              </div>
+
+
+        <div class="d-flex flex-row justify-content-center">
+            <img class="w-25 ml-3 mb-3 Homepage-My-Projects-Cards-img" onclick="display("section-1")" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" alt="" />
+            <img class=" w-25 ml-3 mb-3 Homepage-My-Projects-Cards-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" alt="" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+
+            <img onclick="display('Advanced-Technologies-section')" class="w-25 ml-3 mb-3 Homepage-My-Projects-Cards-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" alt="" />
+            <img class="w-25 ml-3 mb-3 Homepage-My-Projects-Cards-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" alt="" />
+        </div>
+        </div>
+         </div>
+       </div>
+       <!-- first-card ends-here -->
+
+       <!--Advanced Technologies page-->
+
+
+   <div class="col-12  shadow-lg col-md-4 mb-3 ">
+       <div class="Advanced-Technologies-background-cont-image d-flex flex-column justify-content-end">
+           <div class="Advanced-Technologies-container-card">
+               <h1 class="Advanced-Technologies-container-heading">Advanced Technologies</h1>
+               <p class="Advanced-Technologies-cont-paragraph">Machinery and euipment developed from the application of scientific Knowlwdge</p>
+               <button type="submit" class="Advanced-Technologies-btn1 btn-primery">Learn more</button>
+               <button type="submit" class="Advanced-Technologies-btn1 Advanced-Technologies-btn2 btn-success" onclick="display('Homepage-section')">Back</button>
+           </div>
+       </div>
+   </div>
+   <!-- Section-Food-page2 -->
+   <div class="col-12  shadow-lg col-md-4 mb-3">
+     <div id="Section-Food-pag" class="Section-Food">
+        <div class="Section-Food-bgmimg d-flex flex-column justify-content-end">
+            <div class="Section-Food-box-container">
+                <h1 class="Section-Food-main-heading">Happy Meals</h1>
+                <p class="Section-Food-paragraph"><strong>Discover the best foods over the 1,000 restaurents</strong></p>
+                <button class="Section-Food-btn btn btn-light justify-content-center">Book Now</button>
+                <button type="submit" class="btn btn-dark" onclick="display('Homepage-section')">Back</button>
+            </div>
+        </div>
+
+    </div>
+   </div>
+   <div class="col-12  shadow-lg col-md-4 mb-3">
+     <!-- news-paper last-->
+    <div class="news-paper-bg-container-image d-flex flex-column justify-content-end">
+        <div class="news-paper-white-container">
+            <p class="news-paper-News-of">NEWS OF THE DAY</p>
+            <h1 class="news-paper-cricket-heading">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+            <p class="news-paper-cont-paragraph">iB Cricket and Viu together have announced the Worlds first virtual reality
+                cricket league featuring 12 international
+                cricketerrs.who will be competing against each other for the iB Cricket Super Over League title
+                Mumbai. Iconic cricketers like Virender Sehwag.Suresh Raina, Brendon McCullum will be computing in the League.
+            </p>
+            <button type="submit" class="news-paper-btn btn btn-dark">Read more</button>
+            <button type="submit" class="btn btn-dark" onclick="display('Homepage-section')">back</button>
+        </div>
+    </div>
+   </div>
+   <div class="body-cont shadow-lg col-12 col-md-4 mb-3">
+     <div id="Night-Homepage1" class="Home">
+       <div class="Night-top-cont d-flex  flex-column justify-content-center">
+           <div class="top-cont-content">
+               <h1>Sleep Music</h1>
+               <p>Soothing bedtime music to help you fall into anonymous
+                   deep and natural sleeep
+               </p>
+           </div>
+       </div>
+       <div class="Night-bottom-img">
+         <img class="w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png" alt="">
+           <h1 class="Night-Night-Island">Night Island</h1>
+           <p class="Night-Non-stop">Non-stop 8-hour mixes of our most popular
+               sleep audio
+           </p>
+       </div>
+       <div class="Night-button-get-started">
+           <button type="submit" class="btn btn-primary">Get Started</button>
+       </div>
+   </div>
+   </div>
+   <!--Night-card-2-->
+   <div class="col-12 shadow-lg col-md-4 mb-3">
+     <div id="Homepage2" class="Night-card-2-Secondpage">
+       <div class="Night-card-2-Secondpage-image">
+       </div>
+       <div class="">
+           <h1 class="text Night-card-2-kio textheading">Night Island</h1>
+           <p class="Easethe kio">Ease the mind into a restful night's sleep with these
+               deep, amblent tones. <br />45 Min SLEEP MUSIC
+           </p>
+       </div>
+       <h5 class="Night-card-2-kio">Related</h5>
+       <div class="d-flex flex-row">
+           <div class="Night-card-2-card1">
+               <div class="Night-card-2-last-row-img">
+                   <img class="w-100 Night-card-2-last-row-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" alt="" />
+               </div>
+               <div>
+                   <h5>Moon Clouds</h5>
+                   <p class="Night-card-2-Easethe">55 MIN SLEEP MUSIC</p>
+               </div>
+           </div>
+             <div class="Night-card-2-card1">
+                 <div class="Night-card-2-last-row-img2">
+                     <img class="w-100 Night-card-2-last-row-img2" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" alt="" />
+                 </div>
+                 <div>
+                     <h5>Sweet Sleep</h5>
+                     <p class="Night-card-2-Easethe">60 MIN SLEEP MUSIC</p>
+                 </div>
+             </div>
+         </div>
+         <button type="submit" class="btn Night-card-2-btnlast btn-primary" onclick="display('Homepage1')">Back</button>
+     </div>
+   </div>
+   <!--yoga-container-->
+   <div class="col-12 col-md-4 shadow mb-3">
+
+
+       <div id="Home-section" class="yoga-container-Home-section-page d-flex flex-column justify-content-center">
+           <div class="d-flex yoga-container-dcdds flex-column justify-content-center">
+               <p class="yoga-container-Home-section-Heading">Discover the yogi life on the Yoga Experience Platform</p>
+
+               <div class="yoga-container-Home-first-image m-auto">
+                   <img class="yoga-container-Home-section-image" src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" alt="" />
+               </div>
+           </div>
+           <div class="yoga-container-Home-section-page-paragrph">
+               <p class="yoga-container-Home-section-page-paragrph">Yoga poses strengthen and open tight areas of the body</p>
+           </div>
+
+           <div class="btn">
+               <button type="submit" onclick="display('section-page21')" class="btn yoga-container-btn1  btn-primary">Get Started</button>
+           </div>
+       </div>
+   </div>
+   <!-- yoga-cont2-Second-Page-->
+   <div class="col-12 col-md-4 shadow">
+
+    <div class="yoga-cont2-Second-section-page">
+        <div class="yoga-cont2-second-image2">
+            <img class="yoga-cont2-second-image " src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" alt="" />
+        </div>
+        <h1 class="yoga-cont2-Home-section-Heading">Types of Yoga</h1>
+       <div class="w-100">
+
+
+        <div class="yoga-cont2-card1 yoga-cont2-Acro-yuga d-flex flex-row">
+            <div>
+                <img class="yoga-cont2-squrebox" src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" alt="" />
+            </div>
+
+            <div class="yoga-cont2-Acro-yoga-card">
+                <h4 class="yoga-cont2-Home-section-Heading">Acro Yoga</h4>
+                <p class="yoga-cont2-It-streatchs">It stretches and relaxes your body,Improves stamina and memory</p>
+            </div>
+        </div>
+        <div class="yoga-cont2-card1 yoga-cont2-Acro-yuga d-flex flex-row">
+            <div>
+                <img class="yoga-cont2-squrebox" src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" alt="" />
+            </div>
+
+            <div class="yoga-cont2-Acro-yoga-card">
+                <h4 class="yoga-cont2-Home-section-Heading">Vinyasa yoga</h4>
+                <p class="yoga-cont2-It-streatchs">It server as a training to increase
+                    streangth and helps to build lean muscle mass throughout the body
+                </p>
+            </div>
+        </div>
+        <div class="yoga-cont2-card1 yoga-cont2-Acro-yuga d-flex flex-row">
+            <div>
+                <img class="yoga-cont2-squrebox" src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" alt="" />
+            </div>
+
+            <div class="yoga-cont2-Acro-yoga-card">
+                <h4 class="yoga-cont2-Home-section-Heading">Hatha yoga </h4>
+                <p class="yoga-cont2-It-streatchs">It introduce beginners to the main relaxation technical and asans</p>
+            </div>
+        </div>
+        <div class="yoga-cont2-card1 yoga-cont2-Acro-yuga d-flex flex-row">
+            <div>
+                <img class="yoga-cont2-squrebox" src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" alt="" />
+            </div>
+
+            <div class="yoga-cont2-Acro-yoga-card">
+                <h4 class="yoga-cont2-Home-section-Heading">Kundalini yoga</h4>
+                <p class="yoga-cont2-It-streatchs">It helps relax and restore the mind0 and
+                    the body,improveing streangth,flexibility and endurance
+                </p>
+            </div>
+
+        </div>
+        <div class="yoga-cont2-last-button">
+            <button onclick="display('Home-section')" class="btn yoga-cont2-btn1  btn-primary" type="submit" class="btn btn-primary">Back</button>
+        </div>
+        </div>
+    </div>
+   </div>
+   <!-- Shoping-web-page web-page-->
+   <div class="col-12 col-md-4 mb-3 shadow">
+
+
+   <div class="Shoping-web-Home-conatiner d-flex flex-row">
+       <h2>Shop in <br /> your <br /> favorite <br />stores</h2>
+       <div class="d-flex flex-row">
+           <img class="Shoping-web-imagefirst w-100" src="https://assets.ccbp.in/frontend/static-website/stores-img.png" alt="" />
+       </div>
+   </div>
+   <div class="d-flex Shoping-web-bottom-container flex-column ">
+       <h1 class="Shoping-web-Select-your">Select your store with one click</h1>
+       <div class="d-flex flex-row">
+           <div class="Shoping-web-bottom-container-cards justify-content-">
+               <img class="Shoping-web-bottom-container-icon" src="https://assets.ccbp.in/frontend/static-website/amazon-logo-img.png" alt="" />
+           </div>
+           <div class="Shoping-web-ghkdnv">
+               <h1 class="Shoping-web-Amazon-heading">Amazon</h1>
+               <p class="Shoping-web-Amazon-paragrph">Onine Shopping Free Shipping & Cash
+                   on Delivery...
+               </p>
+           </div>
+       </div>
+       <!-- IKeaa-->
+       <div class="d-flex flex-row">
+           <div class="Shoping-web-bottom-container-cards justify-content-">
+               <img class="Shoping-web-bottom-container-icon" src="https://assets.ccbp.in/frontend/static-website/ikea-logo-img.png" alt="" />
+           </div>
+           <div class="Shoping-web-ghkdnv">
+               <h1 class="Shoping-web-Amazon-heading">Amazon</h1>
+               <p class="Shoping-web-Amazon-paragrph">Onine Shopping Free Shipping & Cash
+                   on Delivery...
+               </p>
+           </div>
+       </div>
+       <!--Bewakoof-->
+       <div class="d-flex flex-row">
+           <div class="Shoping-web-bottom-container-cards justify-content-">
+               <img class="Shoping-web-bottom-container-icon" src="https://assets.ccbp.in/frontend/static-website/bewakoof-logo-img.png" alt="" />
+           </div>
+           <div class="Shoping-web-ghkdnv">
+               <h1 class="Shoping-web-Amazon-heading">Amazon</h1>
+               <p class="Shoping-web-Amazon-paragrph">Onine Shopping Free Shipping & Cash
+                   on Delivery...
+               </p>
+           </div>
+       </div>
+       <!-- Flipkart-->
+       <div class="d-flex flex-row ">
+           <div class="Shoping-web-bottom-container-cards justify-content-">
+               <img class="Shoping-web-bottom-container-icon" src="https://assets.ccbp.in/frontend/static-website/flipkart-logo-img.png" alt="" />
+           </div>
+           <div class="Shoping-web-ghkdnv">
+               <h1 class="Shoping-web-Amazon-heading">Amazon</h1>
+               <p class="Shoping-web-Amazon-paragrph">Onine Shopping Free Shipping & Cash
+                   on Delivery...
+               </p>
+           </div>
+       </div>
+
+   </div>
+    </div>
+    <!--new-year sail-->
+    <div class="col-12 mb-5">
+      <div class="new-year-container p-5 text-center">
+      <div class="row">
+          <div class="col-12 col-md-3 d-flex flex-column justify-content-start order-md-2">
+              <img class="new-year-image1 w-75" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-special-img.png" alt="" />
+
+          </div>
+          <div class="col-12 col-md-5 order-md-3 d-flex flex-column justify-content-center">
+              <img class="new-year-image2 w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-appliances-img.png" alt="" />
+          </div>
+          <div class="col-md-4 order-md-1">
+              <h1 class="new-year-Best-New-Heading  mt-3">BEST NEW YEAR SPECIAL OFFERS</h1>
+              <h3 class="new-year-Best-time text-white pl-3">Best time to buy.Save upto <span>70% cash</span></h3>
+
+              <div>
+                  <img class="w-75" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-credit-card-img.png" alt="" />
+              </div>
+          </div>
+
+      </div>
+  </div>
+    </div>
+    <!--our-productone-- new responsivepage-->
+    <div class="col-12 d-flex flex-row ">
+
+        <div class="col-md-6 mb-3">
+            <div class="productone-card d-flex flex-column justify-content-end">
+                <h1 class="productone-Smart-head">Smart Headphones</h1>
+                <p>Headphones with Deep Bass,sound touch..</p>
+                <!--wized-->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn productone-btn1 btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Views Details
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h5 class="modal-title" id="exampleModalLabel">
+                                    <p class="model-body-paragraph">Sony WH-1000XM4 Noise Cancellation Headphones</p>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="model-body-paragraph">Get BestbSmart Headphones Price Oline in India.Select from the best range of Headphones from most popular brands..
+                                    <b>Voice assistent:</b>Alexa,Google Assistent & Siri <br />
+                                    <b>Smart Listening:</b>Ambient sound with the best noise cancellation <br />
+                                    <b>Long battery life:</b>A single charge provides 30 hours cancellation<br />
+                                    <b>Quick charging:</b> Charge for 10min for 5 hourse of playtime
+                                    <b>Touch controls:</b>Change the track with your fingertip
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-outline-dark">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Wizerd livedemo-->
+            </div>
+        </div>
+        <div class="col-md-6 mb-3 ">
+            <div class="productone-card2 d-flex flex-column justify-content-end">
+                <h1 class="Smart-head">Laptops</h1>
+                <p>Explore vast selection of Laptops..</p>
+                <!--wized-->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn productone-btn1 btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Views Details
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h5 class="modal-title" id="exampleModalLabel">
+                                    <p class="model-body-paragraph">Inspiron 14 5490 core i5</p>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="productone-model-body-paragraph">Get Best Laptop Prices Oline in India.Select from the best range of Laptops from most popular brands..
+                                    <b>Performance:</b>Core i5 3rd Gen,2.6 Ghz, 4GB Ram<br />
+                                    <b>Storage:</b>500 GB HDD,SATA,7200 RPM <br />
+                                    <b>Battery:</b>Li-ion,6 Cell<br />
+                                    <b>Quick Design:</b>14.0 Inches,1366 X 768,2.07Kg,34 Mm Thick
+
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-outline-dark">Buy Now</button>
+                            </div>
+                            <div class="ml-auto  ">
+                                <p class="productone-See-all">See All Offers<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Wizerd livedemo-->
+            </div>
+        </div>
+
+    </div>
+    <!-- Trending Blogs-->
+    <div class="col-12 col-md-6 mb-3 ">
+
+                <div class="cont shadow">
+                    <img class="w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-1-img.png" alt="" />
+                    <div class="p-3">
+
+                        <p class="Fountain-heading">Fountain Pens</p>
+                        <h1 class="Main-heading">Guide to Fountain Pen Nibs</h1>
+                        <p class="If-you-para">If you're having trouble with a fountain pen whether it's scratchy,too dry,too wet...</p>
+                        <a href="#">
+                            <p class="Read-more">READ MORE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+      </div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="cont shadow">
+                    <img class="w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-2-img.png" alt="" />
+                    <div class="p-3">
+
+                        <p class="Fountain-heading">Productivity</p>
+                        <h1 class="Main-heading">How to Craft a Better Todo List</h1>
+                        <p class="If-you-para">A well-crafted Todo list acts as a guiding light for your day.It helps you overcome..
+                        </p>
+                        <a href="#">
+                            <p class="Read-more">READ MORE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></p>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+     </div>
+   </div>
+   <!--Static websites-over -->
+    <div class="container-fluid-bottom  d-flex flex-column justify-content-center text-center" ">
+      <a href="https://www.linkedin.com/in/rebba-chandrasekhar-ba-9493a4208/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+
+     <a href="#">gmail:chandui17cy028@gmail.com</a>
+    </div>
+
+   <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+   <script src="/public/js/index.js" charset="utf-8"></script>
+   <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>

@@ -1,0 +1,481 @@
+.Home-container{
+
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.navbar{
+  width: 100%;
+  background-color: transparent;
+}
+.Home-container1{
+   background-image: linear-gradient(to left,#12c2e9,#EECDA3,#EF629F);
+   width:100vw;
+
+
+}
+/*scroll down*/
+html {
+  scroll-behavior: smooth;
+ }
+
+ a {
+  text-decoration: none;
+  color: black;
+ }
+
+
+
+/*end*/
+.animate-charcter
+{
+
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+.Advanced-Technologies-background-cont-image {
+    background-image: url(' https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png');
+    height: 80vh;
+    background-size: cover;
+
+}
+
+.Advanced-Technologies-container-card {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Advanced-Technologies-container-heading {
+    color: #5752ab;
+    font-family: Bree Serif;
+
+}
+
+.Advanced-Technologies-cont-paragraph {
+    color: #323f4b;
+}
+
+.Advanced-Technologies-btn1 {
+    border-radius: 6px;
+}
+
+.Advanced-Technologies-btn2 {
+    color: #ffffff;
+    background-color: #5752ab;
+    border-color: #5752ab;
+    margin: 8px;
+}
+
+/** Food-section  **/
+
+.Section-Food-bgmimg {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png');
+    height: 100vh;
+
+    background-size: cover;
+
+}
+
+.Section-Food-paragraph {
+    font-family: Roboto;
+}
+
+
+
+.Section-Food-box-container {
+    background-color: #f6c56e;
+    padding: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.Section-Food-main-heading {
+    font-family: Bree Serif;
+}
+
+.Section-Food-btn {
+    font-family: Bree Serif;
+    width: 100px
+}
+/*section newspaper*/
+.news-paper-bg-container-image {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.news-paper-white-container {
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 20px;
+}
+
+.news-paper-News-of {
+    color: #7b8794;
+    font-family: Roboto;
+}
+
+.news-paper-cricket-heading {
+    color: #323f4b;
+    font-size: 15px;
+}
+
+.news-paper-cont-paragraph {
+    color: #7b8794;
+    font-family: Roboto;
+}
+
+.news-paper-btn {
+    border-radius: 10px;
+}
+/**/
+/*nignt-nonstop*/
+.body-cont {
+    background-color: #03174c;
+    color: white;
+    font-family: Bree Serif;
+
+
+}
+
+.Night-textheading {
+    font-size: 15px;
+    font-family: Bree Serif;
+}
+
+.Night-top-cont-content {
+    text-align: center;
+
+}
+
+.Night-top-cont {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png');
+    height: 40vh;
+
+    background-size: cover;
+    border-radius: 20pxx;
+}
+
+
+
+.Night-button-get-started {
+    text-align: center;
+    margin: 20px;
+}
+/*night-cont*/
+.Night-card-2-Secondpage-image {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png');
+    height: 40vh;
+    background-size: cover;
+}
+
+.Night-card-2-last-row-img {
+    height: 15vh;
+
+    background-size: cover;
+}
+
+.Night-card-2-last-row-img2 {
+    height: 15vh;
+
+    background-size: cover;
+}
+
+.Night-card-2-card1 {
+    margin: 20px;
+}
+
+.Night-card-2-btnlast {
+    margin: 30px;
+}
+
+.Night-card-2-Easethe {
+    color: #98a1bd;
+}
+
+.Night-card-2-Night-Island {
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+
+.kio {
+    padding: 10px;
+}
+
+.Non-stop {
+    text-align: center;
+}
+/*yoga-container*/
+.yoga-container-Home-section-page{
+    background-color: #ffedcb;
+}
+
+.yoga-container-Home-section-page {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/yoga-bg.png');
+    background-color: #ffedcb;
+    height: 100vh;
+    background-size: cover;
+}
+
+.yoga-container-btn {
+    text-align: center;
+}
+
+.yoga-container-Home-section-page-paragrph {
+    text-align: center;
+
+}
+
+.yoga-container-Home-section-image {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.yoga-container-Home-section-Heading {
+    font-family: Roboto;
+    color: #132d84;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.yoga-container-btn1 {
+    background-color: #132d84;
+}
+/*yoga-container-2*/
+/**SecondPage**/
+.yoga-cont2-second-image {
+    margin-left: 40px;
+    height: 150px;
+    width: 150px;
+
+}
+
+.yoga-cont2-Second-section-page {
+    background-color: #ffedcd;
+    height: 100vh;
+
+}
+
+.yoga-cont2-squrebox {
+    height: 100px;
+    width: 100px;
+}
+
+.yoga-cont2-Acro-yuga {
+    height: 100px;
+}
+
+.yoga-cont2-Acro-yoga-card {
+    text-align: left;
+
+}
+
+.yoga-cont2-card1 {
+    background-color: #ffe2ab;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.yoga-cont2-It-streatchs {
+    color: #132d84;
+}
+
+.yoga-cont2-last-button {
+    text-align: center;
+    margin: 30px;
+}
+
+.yoga-cont2-btn1 {
+    margin: 15px;
+}
+
+.yoga-cont2-dcdds {
+    text-align: center;
+}
+
+.yoga-cont2-Home-first-image {
+    text-align: center;
+}
+
+.yoga-cont2-second-image2 {
+    text-align: center;
+}
+/*Shopping*/
+
+.Shoping-web-Home-conatiner {
+    background-color: #894bca;
+    font-family: Bree Serif;
+    text-align: right;
+    color: white;
+}
+
+.Shoping-web-imagefirst {
+    height: 30vh;
+    width: 40vw;
+}
+
+.Shoping-web-Home-card-outer {
+    background-color: white;
+}
+
+.Shoping-web-bottom-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 55px;
+}
+
+.Shoping-web-Select-your {
+    color: #f780c3;
+    font-size: 20px;
+
+}
+
+.Shoping-web-bottom-container-icon {
+    margin: 6px;
+    width: 50%;
+}
+
+.Shoping-web-Amazon-heading {
+    font-size: 20px;
+}
+
+.Shoping-web-Amazon-paragrph {
+    color: #7b8794;
+}
+
+.Shoping-web-ghkdnv {
+    padding: 10px;
+}
+/*icon*/
+.new-year-container {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+
+}
+
+.new-year-Best-New-Heading {
+    font-family: Bree Serif;
+    font-size: 30px;
+    color: #ad2167;
+}
+/*dvkjsdk*/
+.productone-card {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png');
+    background-size: cover;
+    padding: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 40%;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.productone-our-product {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.productone-Smart-head {
+    font-size: 25px;
+}
+
+.productone-card2 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png');
+    background-size: cover;
+    padding: 25px;
+    padding-bottom: 50px;
+    padding-top: 40%;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.productone-btn1 {
+    font-size: 10px;
+    color: #ff9f00 !important;
+    background-color: white;
+    width: 40%;
+    border-radius: 30px;
+}
+
+.productone-our-product {
+    color: #183b56;
+}
+
+.productone-See-all {
+    color: #ff9f00;
+    font-weight: bold;
+
+}
+
+.productone-model-body-paragraph {
+    color: black;
+}
+/*crds*/
+.Fountain-heading {
+    color: #959ead;
+
+}
+
+.If-you-para {
+    color: #959ead;
+
+}
+
+.Main-heading {
+
+    font-weight: bold;
+}
+
+.Read-more {
+    color: #ff9f00;
+}
+.container-fluid-bottom{
+  color: white;
+  height: 300px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(144,76,20,0.9979342078628326) 43%, rgba(255,0,0,1) 100%);
+}
+.fa-brands{
+  height: 50px !important;
+}
+.main-heading-1{
+
+  color: rgba(144,76,20,0.9979342078628326);
+}
+.heading3e{
+  font-family: '';
+}
